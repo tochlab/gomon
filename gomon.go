@@ -4,6 +4,6 @@ import "./cpu"
 import "fmt"
 
 func main() {
-    cpuload := cpu.CpuLoad()
-    fmt.Println(cpuload)
+	cpuload := cpu.GetCPULoadInfo()
+	fmt.Println(cpuload)
 }
